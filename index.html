@@ -6,12 +6,14 @@
 </head>
 <body>
   <div class="container">
+
   <header class="header">
     <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
     <p id="description" class="description text-center">
       Thank you for taking the time to help us improve the platform
     </p>
   </header>
+
   <form id="survey-form">
     <div class="form-group">
       <label id="name-label" for="name">Name</label>
@@ -24,6 +26,7 @@
         required
       />
     </div>
+
     <div class="form-group">
       <label id="email-label" for="email">Email</label>
       <input
@@ -35,10 +38,9 @@
         required
       />
     </div>
+
     <div class="form-group">
-      <label id="number-label" for="number"
-        >Age<span class="clue">(optional)</span></label
-      >
+      <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
       <input
         type="number"
         name="age"
@@ -49,6 +51,7 @@
         placeholder="Age"
       />
     </div>
+
     <div class="form-group">
       <p>Which option best describes your current role?</p>
       <select id="dropdown" name="role" class="form-control" required>
@@ -70,31 +73,27 @@
           type="radio"
           class="input-radio"
           checked
-        />Definitely</label
-      >
+        />Definitely</label>
+
       <label>
         <input
           name="user-recommend"
           value="maybe"
           type="radio"
           class="input-radio"
-        />Maybe</label
-      >
+        />Maybe</label>
 
-      <label
-        ><input
+      <label>
+        <input
           name="user-recommend"
           value="not-sure"
           type="radio"
           class="input-radio"
-        />Not sure</label
-      >
+        />Not sure</label>
     </div>
 
     <div class="form-group">
-      <p>
-        What is your favorite feature of freeCodeCamp?
-      </p>
+      <p>What is your favorite feature of freeCodeCamp?</p>
       <select id="most-like" name="mostLike" class="form-control" required>
         <option disabled selected value>Select an option</option>
         <option value="challenges">Challenges</option>
@@ -105,99 +104,97 @@
     </div>
 
     <div class="form-group">
-      <p>
-        What would you like to see improved?
+      <p>What would you like to see improved?
         <span class="clue">(Check all that apply)</span>
       </p>
 
-      <label
-        ><input
+      <label>
+        <input
           name="prefer"
           value="front-end-projects"
           type="checkbox"
           class="input-checkbox"
-        />Front-end Projects</label
-      >
+        />Front-end Projects</label>
       <label>
+
         <input
           name="prefer"
           value="back-end-projects"
           type="checkbox"
           class="input-checkbox"
-        />Back-end Projects</label
-      >
-      <label
-        ><input
+        />Back-end Projects</label>
+
+      <label>
+        <input
           name="prefer"
           value="data-visualization"
           type="checkbox"
           class="input-checkbox"
-        />Data Visualization</label
-      >
-      <label
-        ><input
+        />Data Visualization</label>
+
+      <label>
+        <input
           name="prefer"
           value="challenges"
           type="checkbox"
           class="input-checkbox"
-        />Challenges</label
-      >
-      <label
-        ><input
+        />Challenges</label>
+
+      <label>
+        <input
           name="prefer"
           value="open-source-community"
           type="checkbox"
           class="input-checkbox"
-        />Open Source Community</label
-      >
-      <label
-        ><input
+        />Open Source Community</label>
+
+      <label>
+        <input
           name="prefer"
           value="gitter-help-rooms"
           type="checkbox"
           class="input-checkbox"
-        />Gitter help rooms</label
-      >
-      <label
-        ><input
+        />Gitter help rooms</label>
+
+      <label>
+        <input
           name="prefer"
           value="videos"
           type="checkbox"
           class="input-checkbox"
-        />Videos</label
-      >
-      <label
-        ><input
+        />Videos</label>
+
+      <label>
+        <input
           name="prefer"
           value="city-meetups"
           type="checkbox"
           class="input-checkbox"
-        />City Meetups</label
-      >
-      <label
-        ><input
+        />City Meetups</label>
+
+      <label>
+        <input
           name="prefer"
           value="wiki"
           type="checkbox"
           class="input-checkbox"
-        />Wiki</label
-      >
-      <label
-        ><input
+        />Wiki</label>
+
+      <label>
+        <input
           name="prefer"
           value="forum"
           type="checkbox"
           class="input-checkbox"
-        />Forum</label
-      >
-      <label
-        ><input
+        />Forum</label>
+
+      <label>
+        <input
           name="prefer"
           value="additional-courses"
           type="checkbox"
           class="input-checkbox"
-        />Additional Courses</label
-      >
+        />Additional Courses</label>
     </div>
 
     <div class="form-group">
